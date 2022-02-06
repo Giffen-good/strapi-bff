@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_custom_tabs",
+  "info": {
+    "displayName": "tabs (unavailable)",
+    "icon": "folder-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "body": {
+      "type": "richtext"
+    },
+    "heading": {
+      "type": "string"
+    }
+  }
+}

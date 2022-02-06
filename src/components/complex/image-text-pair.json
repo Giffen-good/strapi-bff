@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_complex_image_text_pairs",
+  "info": {
+    "displayName": "Image Text Pair",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "background_color": {
+      "type": "string",
+      "regex": "^#[0-9a-fA-F]{3,6}$"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "box": {
+      "displayName": "Text Container",
+      "type": "component",
+      "repeatable": false,
+      "component": "text.text-container"
+    },
+    "page_links_1": {
+      "displayName": "Page Links",
+      "type": "component",
+      "repeatable": false,
+      "component": "component-part.page-links"
+    }
+  }
+}

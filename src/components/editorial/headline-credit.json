@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_editorial_headline_credits",
+  "info": {
+    "displayName": "Headline Credit",
+    "icon": "menorah"
+  },
+  "options": {},
+  "attributes": {
+    "credit_part": {
+      "displayName": "Credit Part",
+      "type": "component",
+      "repeatable": true,
+      "component": "component-part.credit-part"
+    }
+  }
+}

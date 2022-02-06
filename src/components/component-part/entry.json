@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_component_part_entries",
+  "info": {
+    "displayName": "entry",
+    "icon": "baby"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

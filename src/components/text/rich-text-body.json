@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_custom_rich_text_bodies",
+  "info": {
+    "displayName": "Rich Text",
+    "icon": "i-cursor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "body": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_generic_headings",
+  "info": {
+    "displayName": "heading",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "heading_elements": {
+      "type": "enumeration",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6"
+      ],
+      "default": "h2",
+      "required": true
+    },
+    "font_family": {
+      "type": "enumeration",
+      "enum": [
+        "font_serif",
+        "font_sans",
+        "font_semibold"
+      ],
+      "default": "font_serif"
+    }
+  }
+}

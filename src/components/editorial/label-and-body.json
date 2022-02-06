@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_custom_label_and_bodies",
+  "info": {
+    "displayName": "title_and_subtitle",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

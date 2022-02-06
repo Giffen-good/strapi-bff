@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_footer_footer_lefts",
+  "info": {
+    "displayName": "footer_left",
+    "icon": "window-restore"
+  },
+  "options": {},
+  "attributes": {
+    "menu_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component-part.link"
+    }
+  }
+}

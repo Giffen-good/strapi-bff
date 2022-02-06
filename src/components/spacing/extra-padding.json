@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_editorial_extra_paddings",
+  "info": {
+    "displayName": "Extra Padding",
+    "icon": "arrow-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "extra_padding": {
+      "type": "string",
+      "regex": "[0-9]",
+      "default": "3"
+    },
+    "background_color_padding": {
+      "type": "string"
+    }
+  }
+}

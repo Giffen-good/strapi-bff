@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_editorial_post_dates",
+  "info": {
+    "displayName": "post_date",
+    "icon": "calendar-alt"
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    }
+  }
+}

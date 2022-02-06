@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "alphabets",
+  "info": {
+    "singularName": "alphabet",
+    "pluralName": "alphabets",
+    "displayName": "A to Z Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "accordion": {
+      "displayName": "Alphabet",
+      "type": "component",
+      "repeatable": true,
+      "component": "complex.alphabet"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "background_color": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_generic_brands",
+  "info": {
+    "displayName": "Brands",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "brand_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

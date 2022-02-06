@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_custom_staff",
+  "info": {
+    "displayName": "staff",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "position": {
+      "type": "string"
+    },
+    "staff_name": {
+      "type": "string"
+    }
+  }
+}

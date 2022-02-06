@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_component_part_background_colors",
+  "info": {
+    "displayName": "Background Color",
+    "icon": "clone",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "background_color": {
+      "type": "string",
+      "regex": "^#[0-9a-f]{3,6}$"
+    }
+  }
+}

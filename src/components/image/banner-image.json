@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_image_banner_images",
+  "info": {
+    "displayName": "Banner Image",
+    "icon": "newspaper"
+  },
+  "options": {},
+  "attributes": {
+    "banner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

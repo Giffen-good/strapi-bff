@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_custom_header_body_ctas",
+  "info": {
+    "displayName": "header_body_cta",
+    "icon": "text-height",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "Body": {
+      "type": "text"
+    },
+    "cta_with_arrow": {
+      "displayName": "cta_with_arrow",
+      "type": "component",
+      "repeatable": false,
+      "component": "component-part.cta-with-arrow"
+    }
+  }
+}

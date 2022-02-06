@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_custom_header_columns",
+  "info": {
+    "displayName": "header column",
+    "icon": "network-wired",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "top_level_menu_item": {
+      "type": "string"
+    },
+    "sub_menu_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component-part.link"
+    }
+  }
+}

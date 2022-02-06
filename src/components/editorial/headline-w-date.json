@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_editorial_headline_w_dates",
+  "info": {
+    "displayName": "Headline W/Date",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}

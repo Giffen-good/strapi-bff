@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_custom_two_column_texts",
+  "info": {
+    "displayName": "Line Separated Credits",
+    "icon": "equals",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "credit": {
+      "displayName": "label_and_body",
+      "type": "component",
+      "repeatable": true,
+      "component": "editorial.label-and-body"
+    }
+  }
+}

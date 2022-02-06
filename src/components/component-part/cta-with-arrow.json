@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_custom_cta_with_arrows",
+  "info": {
+    "displayName": "cta_with_arrow",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cta_text": {
+      "type": "string"
+    },
+    "cta_url": {
+      "type": "string"
+    }
+  }
+}

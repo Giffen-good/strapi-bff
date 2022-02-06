@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_custom_three_column_banners",
+  "info": {
+    "displayName": "Image and Text Banner (3 Column)",
+    "icon": "digital-tachograph",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image_1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "image_2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "image_and_text_background_color": {
+      "type": "string"
+    }
+  }
+}

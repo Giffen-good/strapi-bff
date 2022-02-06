@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "roots",
+  "info": {
+    "singularName": "root",
+    "pluralName": "roots",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "background_color": {
+      "type": "string",
+      "regex": "^#[0-9a-fA-F]{3,6}$"
+    },
+    "header_type": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.header-type"
+    },
+    "main_content": {
+      "type": "dynamiczone",
+      "components": [
+        "complex.editorial-header-image",
+        "complex.image-text-pair",
+        "complex.three-column-banner",
+        "editorial.headline-credit",
+        "editorial.headline-w-date",
+        "editorial.label-and-body",
+        "editorial.line-separated-credits",
+        "editorial.post-date",
+        "generic.brands",
+        "image.banner-image",
+        "image.image-columns",
+        "mission.staff",
+        "mission.tabs",
+        "complex.featured-post",
+        "post.posts-widget",
+        "spacing.extra-padding",
+        "text.heading",
+        "text.quote",
+        "text.rich-text-body"
+      ]
+    },
+    "is_landing_page": {
+      "type": "boolean"
+    }
+  }
+}

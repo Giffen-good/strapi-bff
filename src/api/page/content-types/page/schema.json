@@ -1,0 +1,74 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "main_content": {
+      "type": "dynamiczone",
+      "components": [
+        "complex.editorial-header-image",
+        "editorial.headline-credit",
+        "editorial.headline-w-date",
+        "image.image-columns",
+        "editorial.label-and-body",
+        "editorial.post-date",
+        "editorial.line-separated-credits",
+        "generic.brands",
+        "text.heading",
+        "header.header-column",
+        "mission.staff",
+        "mission.tabs",
+        "image.banner-image",
+        "complex.featured-post",
+        "post.posts-widget",
+        "spacing.extra-padding",
+        "text.cta",
+        "text.quote",
+        "text.rich-text-body",
+        "complex.image-text-pair",
+        "complex.three-column-banner"
+      ]
+    },
+    "background_color": {
+      "type": "string",
+      "regex": "^#[0-9a-fA-F]{3,6}$"
+    },
+    "header_type": {
+      "displayName": "Header Type",
+      "type": "component",
+      "repeatable": false,
+      "component": "header.header-type"
+    },
+    "pathname": {
+      "type": "string",
+      "regex": "^\\/editorial|author|about|a-z|foundation|fair|stories*\\/(.+) \\/$"
+    }
+  }
+}

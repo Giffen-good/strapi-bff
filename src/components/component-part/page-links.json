@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_component_part_page_links",
+  "info": {
+    "displayName": "Page Links",
+    "icon": "code-branch",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "free_link": {
+      "type": "string"
+    },
+    "button_label": {
+      "type": "string"
+    }
+  }
+}

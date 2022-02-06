@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_component_part_credit_parts",
+  "info": {
+    "displayName": "Credit Part",
+    "icon": "diagnoses"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component-part.sm-links"
+    }
+  }
+}

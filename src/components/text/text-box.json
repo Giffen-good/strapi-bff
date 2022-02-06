@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_text_text_boxes",
+  "info": {
+    "displayName": "Text Box",
+    "icon": "file-contract"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+    },
+    "cta_with_arrow": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component-part.cta-with-arrow"
+    }
+  }
+}

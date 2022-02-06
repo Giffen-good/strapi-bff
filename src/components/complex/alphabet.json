@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_complex_alphabets",
+  "info": {
+    "displayName": "Alphabet",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "letter": {
+      "type": "string"
+    },
+    "entry": {
+      "displayName": "entry",
+      "type": "component",
+      "repeatable": true,
+      "component": "component-part.entry"
+    }
+  }
+}

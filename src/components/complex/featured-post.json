@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_post_featured_posts",
+  "info": {
+    "displayName": "Article Info Section",
+    "icon": "file-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "drop_cap": {
+      "type": "string",
+      "maxLength": 1
+    },
+    "title": {
+      "type": "string"
+    },
+    "excerpt": {
+      "type": "richtext"
+    },
+    "justified_text": {
+      "type": "text"
+    },
+    "bold_title": {
+      "type": "text"
+    },
+    "bg_color": {
+      "type": "string",
+      "regex": "^#[0-9a-fA-F]{3,6}$"
+    },
+    "button_text": {
+      "type": "string"
+    },
+    "button_link": {
+      "type": "string"
+    }
+  }
+}
