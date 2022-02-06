@@ -12,11 +12,6 @@
     },
     "free_sub_link": {
       "type": "string"
-    },
-    "page_uri": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::page.page"
     }
   }
 }
