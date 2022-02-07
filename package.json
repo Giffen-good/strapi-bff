@@ -17,7 +17,6 @@
     "pg-connection-string": "^2.5.0",
     "sqlite3": "5.0.2",
     "strapi-plugin-populate-deep": "^0.1.1",
-    "strapi-provider-upload-cloudinary": "^3.6.8",
     "strapi-sanitizer": "^1.0.5"
   },
   "author": {
