@@ -70,7 +70,7 @@ $RECYCLE.BIN/
 *.sql
 *.sqlite
 *.sqlite3
-data
+
 ############################
 # Misc.
 ############################
@@ -79,7 +79,7 @@ data
 ssl
 .idea
 nbproject
-public/uploads/*
+public/uploads/
 !public/uploads/.gitkeep
 
 ############################
