@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "renders",
+  "info": {
+    "singularName": "render",
+    "pluralName": "renders",
+    "displayName": "Render"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
