@@ -1,6 +1,6 @@
 module.exports = ({ env }) => ({
   host: "0.0.0.0",
-  url: env("https://strapi-1q6e.onrender.com"),
+  url: env("https://giffen-good-strapi-deploys.herokuapp.com"),
   admin: {
     auth: {
       secret: env("ADMIN_JWT_SECRET"),
