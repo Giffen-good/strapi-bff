@@ -20,17 +20,17 @@
       "type": "enumeration",
       "enum": [
         "logo",
-        "alt_logo",
-        "homepage_logo"
+        "alt_logo"
       ],
-      "default": "alt_logo"
+      "default": "alt_logo",
+      "required": true
     },
     "use_navigation": {
       "type": "boolean",
       "default": true,
       "required": true
     },
-    "use_homepage_layout": {
+    "use_special_layout": {
       "type": "boolean",
       "default": false,
       "required": true
