@@ -38,7 +38,7 @@
         "videos"
       ]
     },
-    "inverted_logo": {
+    "homepage_logo": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -47,11 +47,6 @@
         "files",
         "videos"
       ]
-    },
-    "page_links": {
-      "type": "component",
-      "repeatable": false,
-      "component": "component-part.page-links"
     }
   }
 }

@@ -21,13 +21,18 @@
       "enum": [
         "logo",
         "alt_logo",
-        "inverted_logo"
+        "homepage_logo"
       ],
       "default": "alt_logo"
     },
     "use_navigation": {
       "type": "boolean",
       "default": true,
+      "required": true
+    },
+    "use_homepage_layout": {
+      "type": "boolean",
+      "default": false,
       "required": true
     }
   }
