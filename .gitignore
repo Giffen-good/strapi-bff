@@ -71,6 +71,7 @@ $RECYCLE.BIN/
 *.sqlite
 *.sqlite3
 data/backup.db
+data/strapi.db.bak
 ############################
 # Misc.
 ############################

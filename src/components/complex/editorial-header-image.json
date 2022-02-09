@@ -21,6 +21,11 @@
       "type": "component",
       "repeatable": false,
       "component": "component-part.page-links"
+    },
+    "animation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component-part.transition"
     }
   }
 }

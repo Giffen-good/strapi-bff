@@ -2,18 +2,30 @@
   "collectionName": "components_generic_brands",
   "info": {
     "displayName": "Brands",
-    "icon": "images"
+    "icon": "images",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "brand_image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "bg_color": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component-part.bg-color"
+    },
+    "animation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component-part.transition"
     }
   }
 }

@@ -15,10 +15,15 @@
     "title": {
       "type": "string"
     },
-    "background_color_1": {
+    "bg_color": {
       "type": "component",
       "repeatable": false,
-      "component": "component-part.background-color"
+      "component": "component-part.bg-color"
+    },
+    "animation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component-part.transition"
     }
   }
 }

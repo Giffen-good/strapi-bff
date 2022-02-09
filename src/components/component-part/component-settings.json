@@ -1,24 +1,17 @@
 {
-  "collectionName": "components_editorial_headline_w_dates",
+  "collectionName": "components_component_part_component_settings",
   "info": {
-    "displayName": "Headline W/Date",
-    "icon": "book",
-    "description": ""
+    "displayName": "Component Settings",
+    "icon": "cogs"
   },
   "options": {},
   "attributes": {
-    "Heading": {
-      "type": "string"
-    },
-    "date": {
-      "type": "date"
-    },
     "bg_color": {
       "type": "component",
       "repeatable": false,
       "component": "component-part.bg-color"
     },
-    "animation": {
+    "Animation": {
       "type": "component",
       "repeatable": false,
       "component": "component-part.transition"

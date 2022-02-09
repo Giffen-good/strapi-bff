@@ -11,7 +11,17 @@
       "displayName": "label_and_body",
       "type": "component",
       "repeatable": true,
-      "component": "editorial.label-and-body"
+      "component": "component-part.label-and-body"
+    },
+    "bg_color": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component-part.bg-color"
+    },
+    "animation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component-part.transition"
     }
   }
 }

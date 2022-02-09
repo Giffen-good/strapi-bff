@@ -8,12 +8,14 @@
   "options": {},
   "attributes": {
     "extra_padding": {
-      "type": "string",
-      "regex": "[0-9]",
-      "default": "3"
+      "type": "decimal",
+      "default": 3,
+      "required": true
     },
-    "background_color_padding": {
-      "type": "string"
+    "bg_color": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component-part.bg-color"
     }
   }
 }

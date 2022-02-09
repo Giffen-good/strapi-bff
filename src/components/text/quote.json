@@ -9,6 +9,16 @@
   "attributes": {
     "quote": {
       "type": "text"
+    },
+    "bg_color": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component-part.bg-color"
+    },
+    "animation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component-part.transition"
     }
   }
 }

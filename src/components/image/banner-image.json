@@ -2,18 +2,30 @@
   "collectionName": "components_image_banner_images",
   "info": {
     "displayName": "Banner Image",
-    "icon": "newspaper"
+    "icon": "newspaper",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "banner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "transition": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component-part.transition"
+    },
+    "bg_color": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component-part.bg-color"
     }
   }
 }

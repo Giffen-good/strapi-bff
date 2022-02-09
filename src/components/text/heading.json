@@ -31,6 +31,16 @@
         "font_semibold"
       ],
       "default": "font_serif"
+    },
+    "bg_color": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component-part.bg-color"
+    },
+    "animation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component-part.transition"
     }
   }
 }

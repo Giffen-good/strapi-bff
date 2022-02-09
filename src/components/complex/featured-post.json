@@ -23,15 +23,21 @@
     "bold_title": {
       "type": "text"
     },
-    "bg_color": {
-      "type": "string",
-      "regex": "^#[0-9a-fA-F]{3,6}$"
-    },
     "button_text": {
       "type": "string"
     },
     "button_link": {
       "type": "string"
+    },
+    "bg_color": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component-part.bg-color"
+    },
+    "animation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component-part.transition"
     }
   }
 }

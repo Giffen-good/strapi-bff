@@ -7,10 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "background_color": {
-      "type": "string",
-      "regex": "^#[0-9a-fA-F]{3,6}$"
-    },
     "image": {
       "type": "media",
       "multiple": false,
@@ -32,6 +28,16 @@
       "type": "component",
       "repeatable": false,
       "component": "component-part.page-links"
+    },
+    "bg_color": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component-part.bg-color"
+    },
+    "animation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component-part.transition"
     }
   }
 }
