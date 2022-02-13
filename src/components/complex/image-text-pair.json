@@ -23,12 +23,6 @@
       "repeatable": false,
       "component": "text.text-container"
     },
-    "page_links_1": {
-      "displayName": "Page Links",
-      "type": "component",
-      "repeatable": false,
-      "component": "component-part.page-links"
-    },
     "bg_color": {
       "type": "component",
       "repeatable": false,
@@ -38,6 +32,9 @@
       "type": "component",
       "repeatable": true,
       "component": "component-part.transition"
+    },
+    "cta_url": {
+      "type": "string"
     }
   }
 }

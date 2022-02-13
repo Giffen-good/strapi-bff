@@ -21,8 +21,10 @@
     "description": {
       "type": "richtext"
     },
-    "background_color": {
-      "type": "string"
+    "page_settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.header-type"
     }
   }
 }

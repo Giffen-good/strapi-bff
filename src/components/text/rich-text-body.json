@@ -19,6 +19,23 @@
       "type": "component",
       "repeatable": false,
       "component": "component-part.bg-color"
+    },
+    "Width": {
+      "type": "enumeration",
+      "enum": [
+        "narrow",
+        "wide",
+        "full_width"
+      ]
+    },
+    "text_alignment": {
+      "type": "enumeration",
+      "enum": [
+        "left_aligned",
+        "centered",
+        "right_aligned"
+      ],
+      "default": "left_aligned"
     }
   }
 }

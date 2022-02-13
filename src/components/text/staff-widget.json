@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_text_staff_widgets",
+  "info": {
+    "displayName": "staff_widget",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "position": {
+      "type": "string"
+    },
+    "staff_name": {
+      "type": "string"
+    }
+  }
+}

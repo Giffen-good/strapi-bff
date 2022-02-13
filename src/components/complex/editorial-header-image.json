@@ -26,6 +26,21 @@
       "type": "component",
       "repeatable": false,
       "component": "component-part.transition"
+    },
+    "overlay_opacity": {
+      "type": "integer",
+      "min": 0,
+      "max": 100,
+      "default": 35
+    },
+    "mobile_fallback": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

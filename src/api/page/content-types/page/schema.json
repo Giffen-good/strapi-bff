@@ -42,7 +42,6 @@
         "editorial.line-separated-credits",
         "generic.brands",
         "text.heading",
-        "header.header-column",
         "mission.staff",
         "mission.tabs",
         "image.banner-image",
@@ -53,18 +52,16 @@
         "text.quote",
         "text.rich-text-body",
         "complex.image-text-pair",
-        "complex.three-column-banner"
+        "complex.three-column-banner",
+        "complex.alphabet",
+        "text.staff-widget"
       ]
     },
-    "background_color": {
-      "type": "string",
-      "regex": "^#[0-9a-fA-F]{3,6}$"
-    },
-    "header_type": {
+    "page_settings": {
       "displayName": "Header Type",
       "type": "component",
       "repeatable": false,
-      "component": "header.header-type"
+      "component": "settings.header-type"
     },
     "pathname": {
       "type": "string",

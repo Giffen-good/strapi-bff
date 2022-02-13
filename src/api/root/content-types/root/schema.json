@@ -12,14 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "background_color": {
-      "type": "string",
-      "regex": "^#[0-9a-fA-F]{3,6}$"
-    },
-    "header_type": {
+    "page_settings": {
       "type": "component",
       "repeatable": false,
-      "component": "header.header-type"
+      "component": "settings.header-type"
     },
     "main_content": {
       "type": "dynamiczone",
@@ -44,9 +40,6 @@
         "text.quote",
         "text.rich-text-body"
       ]
-    },
-    "is_landing_page": {
-      "type": "boolean"
     }
   }
 }

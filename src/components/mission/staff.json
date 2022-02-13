@@ -7,11 +7,16 @@
   },
   "options": {},
   "attributes": {
-    "position": {
-      "type": "string"
+    "staff_widget": {
+      "displayName": "staff_widget",
+      "type": "component",
+      "repeatable": true,
+      "component": "text.staff-widget"
     },
-    "staff_name": {
-      "type": "string"
+    "background_color_component": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component-part.bg-color"
     }
   }
 }

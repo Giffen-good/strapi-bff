@@ -7,20 +7,10 @@
   },
   "options": {},
   "attributes": {
-    "drop_cap": {
-      "type": "string",
-      "maxLength": 1
-    },
-    "title": {
-      "type": "string"
-    },
     "excerpt": {
       "type": "richtext"
     },
     "justified_text": {
-      "type": "text"
-    },
-    "bold_title": {
       "type": "text"
     },
     "button_text": {
@@ -38,6 +28,15 @@
       "type": "component",
       "repeatable": false,
       "component": "component-part.transition"
+    },
+    "title_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

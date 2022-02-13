@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_complex_tabs",
+  "info": {
+    "displayName": "tabs",
+    "icon": "boxes"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text"
+    }
+  }
+}
