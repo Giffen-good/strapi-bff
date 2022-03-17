@@ -30,6 +30,16 @@
       "component": "component-part.transition"
     },
     "title_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "banner_image": {
       "allowedTypes": [
         "images",
         "files",

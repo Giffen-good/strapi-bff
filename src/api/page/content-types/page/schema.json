@@ -66,6 +66,9 @@
     "pathname": {
       "type": "string",
       "regex": "^\\/editorial|author|about|a-z|foundation|fair|stories*\\/(.+) \\/$"
+    },
+    "designer": {
+      "type": "string"
     }
   }
 }

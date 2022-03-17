@@ -59,6 +59,10 @@
         "text_8xl"
       ],
       "default": "text_lg"
+    },
+    "has_padding": {
+      "type": "boolean",
+      "default": true
     }
   }
 }
