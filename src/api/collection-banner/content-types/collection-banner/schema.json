@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "collection_banners",
+  "info": {
+    "singularName": "collection-banner",
+    "pluralName": "collection-banners",
+    "displayName": "Collection Banner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "brand_name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component-part.link"
+    },
+    "credits": {
+      "type": "text"
+    },
+    "credits_have_justified_text": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "category": {
+      "type": "uid"
+    }
+  }
+}
