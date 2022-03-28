@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "pages",
+  "collectionName": "stories",
   "info": {
-    "singularName": "page",
-    "pluralName": "pages",
-    "displayName": "Page",
+    "singularName": "story",
+    "pluralName": "stories",
+    "displayName": "Stories",
     "description": ""
   },
   "options": {
@@ -15,6 +15,15 @@
     "title": {
       "type": "string",
       "required": true
+    },
+    "author": {
+      "type": "string"
+    },
+    "excerpt": {
+      "type": "richtext"
+    },
+    "volume_tag": {
+      "type": "string"
     },
     "slug": {
       "type": "uid",
@@ -64,9 +73,6 @@
       "type": "component",
       "repeatable": false,
       "component": "settings.header-type"
-    },
-    "designer": {
-      "type": "string"
     }
   }
 }
