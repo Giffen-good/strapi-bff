@@ -35,6 +35,11 @@
     },
     "cta_url": {
       "type": "string"
+    },
+    "has_padding": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }

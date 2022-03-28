@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_editorial_credits_widgets",
+  "info": {
+    "displayName": "Credits Widget",
+    "icon": "graduation-cap"
+  },
+  "options": {},
+  "attributes": {
+    "credit_widget": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component-part.credits-2"
+    }
+  }
+}
