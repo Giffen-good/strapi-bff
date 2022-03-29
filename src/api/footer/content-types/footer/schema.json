@@ -26,6 +26,11 @@
       "type": "component",
       "repeatable": true,
       "component": "component-part.sm-links"
+    },
+    "special_footer_nav": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component-part.link"
     }
   }
 }
