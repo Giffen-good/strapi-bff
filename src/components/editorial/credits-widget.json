@@ -2,7 +2,8 @@
   "collectionName": "components_editorial_credits_widgets",
   "info": {
     "displayName": "Credits Widget",
-    "icon": "graduation-cap"
+    "icon": "graduation-cap",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,6 +11,11 @@
       "type": "component",
       "repeatable": true,
       "component": "component-part.credits-2"
+    },
+    "bg_color": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component-part.bg-color"
     }
   }
 }
