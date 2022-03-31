@@ -24,6 +24,11 @@
     },
     "is_flush": {
       "type": "boolean"
+    },
+    "component_settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.component-settings"
     }
   }
 }

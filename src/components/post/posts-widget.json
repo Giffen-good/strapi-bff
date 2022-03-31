@@ -15,20 +15,15 @@
     "title": {
       "type": "string"
     },
-    "bg_color": {
-      "type": "component",
-      "repeatable": false,
-      "component": "component-part.bg-color"
-    },
-    "animation": {
-      "type": "component",
-      "repeatable": false,
-      "component": "component-part.transition"
-    },
     "include_designer_in_title": {
       "type": "boolean",
       "default": true,
       "required": true
+    },
+    "component_settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.component-settings"
     }
   }
 }

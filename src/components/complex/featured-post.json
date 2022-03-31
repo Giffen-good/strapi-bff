@@ -19,16 +19,6 @@
     "button_link": {
       "type": "string"
     },
-    "bg_color": {
-      "type": "component",
-      "repeatable": false,
-      "component": "component-part.bg-color"
-    },
-    "animation": {
-      "type": "component",
-      "repeatable": false,
-      "component": "component-part.transition"
-    },
     "title_image": {
       "type": "media",
       "multiple": false,
@@ -40,13 +30,19 @@
       ]
     },
     "banner_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "component_settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.component-settings"
     }
   }
 }

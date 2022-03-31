@@ -12,10 +12,10 @@
       "repeatable": true,
       "component": "component-part.credits-2"
     },
-    "bg_color": {
+    "component_settings": {
       "type": "component",
       "repeatable": false,
-      "component": "component-part.bg-color"
+      "component": "settings.component-settings"
     }
   }
 }

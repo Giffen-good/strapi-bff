@@ -34,11 +34,6 @@
       "type": "component",
       "repeatable": false,
       "component": "component-part.bg-color"
-    },
-    "animation": {
-      "type": "component",
-      "repeatable": false,
-      "component": "component-part.transition"
     }
   }
 }

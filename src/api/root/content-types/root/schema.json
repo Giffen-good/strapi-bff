@@ -20,7 +20,6 @@
     "main_content": {
       "type": "dynamiczone",
       "components": [
-        "complex.editorial-header-image",
         "complex.image-text-pair",
         "complex.three-column-banner",
         "editorial.headline-credit",
@@ -29,7 +28,6 @@
         "editorial.line-separated-credits",
         "component-part.post-date",
         "generic.brands",
-        "image.banner-image",
         "image.image-columns",
         "mission.staff",
         "mission.tabs",

@@ -32,16 +32,6 @@
       ],
       "default": "font_serif"
     },
-    "bg_color": {
-      "type": "component",
-      "repeatable": false,
-      "component": "component-part.bg-color"
-    },
-    "animation": {
-      "type": "component",
-      "repeatable": false,
-      "component": "component-part.transition"
-    },
     "font_size": {
       "type": "enumeration",
       "enum": [
@@ -71,6 +61,11 @@
         "medium",
         "wide"
       ]
+    },
+    "component_settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.component-settings"
     }
   }
 }

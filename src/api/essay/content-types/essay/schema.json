@@ -47,7 +47,6 @@
     "main_content": {
       "type": "dynamiczone",
       "components": [
-        "complex.editorial-header-image",
         "editorial.headline-credit",
         "editorial.headline-w-date",
         "image.image-columns",
@@ -58,7 +57,6 @@
         "text.heading",
         "mission.staff",
         "mission.tabs",
-        "image.banner-image",
         "complex.featured-post",
         "post.posts-widget",
         "spacing.extra-padding",

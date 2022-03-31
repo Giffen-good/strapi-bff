@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_settings_component_settings",
+  "info": {
+    "displayName": "Component Settings",
+    "icon": "share-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "component_bg_color": {
+      "type": "string",
+      "regex": "^#[0-9a-fA-F]{3,6}$"
+    },
+    "component_font_color": {
+      "type": "string",
+      "regex": "^#[0-9a-fA-F]{3,6}$"
+    },
+    "hide_section": {
+      "type": "boolean",
+      "default": false
+    },
+    "anchor_link": {
+      "type": "string"
+    },
+    "animation": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "fade_in"
+      ]
+    },
+    "trigger_animation_once": {
+      "type": "boolean",
+      "default": true
+    },
+    "animation_threshold": {
+      "type": "integer",
+      "default": 35,
+      "max": 100,
+      "required": true
+    },
+    "animation_duration": {
+      "type": "decimal",
+      "default": 0.35,
+      "max": 5,
+      "min": 0
+    }
+  }
+}

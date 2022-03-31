@@ -27,15 +27,10 @@
       ],
       "default": "center_aligned"
     },
-    "transition": {
+    "component_settings": {
       "type": "component",
       "repeatable": false,
-      "component": "component-part.transition"
-    },
-    "bg_color": {
-      "type": "component",
-      "repeatable": false,
-      "component": "component-part.bg-color"
+      "component": "settings.component-settings"
     }
   }
 }

@@ -10,16 +10,6 @@
     "body": {
       "type": "richtext"
     },
-    "animation": {
-      "type": "component",
-      "repeatable": false,
-      "component": "component-part.transition"
-    },
-    "bg_color": {
-      "type": "component",
-      "repeatable": false,
-      "component": "component-part.bg-color"
-    },
     "Width": {
       "type": "enumeration",
       "enum": [
@@ -36,6 +26,11 @@
         "right_aligned"
       ],
       "default": "left_aligned"
+    },
+    "component_settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.component-settings"
     }
   }
 }

@@ -13,10 +13,10 @@
       "repeatable": true,
       "component": "text.staff-widget"
     },
-    "background_color_component": {
+    "component_settings": {
       "type": "component",
       "repeatable": false,
-      "component": "component-part.bg-color"
+      "component": "settings.component-settings"
     }
   }
 }
