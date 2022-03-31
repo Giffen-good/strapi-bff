@@ -21,7 +21,6 @@
       "type": "dynamiczone",
       "components": [
         "complex.image-text-pair",
-        "complex.three-column-banner",
         "editorial.headline-credit",
         "editorial.headline-w-date",
         "component-part.label-and-body",
@@ -36,7 +35,10 @@
         "spacing.extra-padding",
         "text.heading",
         "text.quote",
-        "text.rich-text-body"
+        "text.rich-text-body",
+        "text.button",
+        "image.single-image",
+        "editorial.credits-widget"
       ]
     }
   }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "press",
     "pluralName": "presses",
-    "displayName": "Press"
+    "displayName": "Press",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -68,7 +69,8 @@
         "complex.alphabet",
         "text.staff-widget",
         "image.single-image",
-        "editorial.credits-widget"
+        "editorial.credits-widget",
+        "text.button"
       ]
     }
   }

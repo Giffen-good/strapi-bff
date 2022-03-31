@@ -4,7 +4,8 @@
   "info": {
     "singularName": "conversation",
     "pluralName": "conversations",
-    "displayName": "Conversations"
+    "displayName": "Conversations",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -68,7 +69,8 @@
         "complex.alphabet",
         "text.staff-widget",
         "image.single-image",
-        "editorial.credits-widget"
+        "editorial.credits-widget",
+        "text.button"
       ]
     }
   }
