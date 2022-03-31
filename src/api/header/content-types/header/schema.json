@@ -27,6 +27,15 @@
         "files",
         "videos"
       ]
+    },
+    "cart_icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
