@@ -72,6 +72,9 @@
         "editorial.credits-widget",
         "text.button"
       ]
+    },
+    "external_url": {
+      "type": "string"
     }
   }
 }

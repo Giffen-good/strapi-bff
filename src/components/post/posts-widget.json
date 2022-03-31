@@ -24,6 +24,21 @@
       "type": "component",
       "repeatable": false,
       "component": "settings.component-settings"
+    },
+    "essays": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::essay.essay"
+    },
+    "stories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::story.story"
+    },
+    "conversations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::conversation.conversation"
     }
   }
 }
