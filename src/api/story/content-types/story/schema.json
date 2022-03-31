@@ -63,7 +63,8 @@
         "complex.alphabet",
         "text.staff-widget",
         "image.single-image",
-        "editorial.credits-widget"
+        "editorial.credits-widget",
+        "text.button"
       ]
     },
     "page_settings": {
