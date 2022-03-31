@@ -23,16 +23,6 @@
       "repeatable": false,
       "component": "text.text-container"
     },
-    "bg_color": {
-      "type": "component",
-      "repeatable": false,
-      "component": "component-part.bg-color"
-    },
-    "animation": {
-      "type": "component",
-      "repeatable": true,
-      "component": "component-part.transition"
-    },
     "cta_url": {
       "type": "string"
     },
@@ -40,6 +30,11 @@
       "type": "boolean",
       "default": false,
       "required": true
+    },
+    "component_settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.component-settings"
     }
   }
 }

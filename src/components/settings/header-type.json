@@ -31,6 +31,11 @@
     "use_full_logo": {
       "type": "boolean",
       "default": false
+    },
+    "use_navigations": {
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }

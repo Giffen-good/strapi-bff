@@ -10,11 +10,6 @@
       "type": "component",
       "repeatable": false,
       "component": "component-part.bg-color"
-    },
-    "Animation": {
-      "type": "component",
-      "repeatable": false,
-      "component": "component-part.transition"
     }
   }
 }

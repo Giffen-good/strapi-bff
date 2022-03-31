@@ -13,15 +13,10 @@
       "repeatable": true,
       "component": "component-part.label-and-body"
     },
-    "bg_color": {
+    "component_settings": {
       "type": "component",
       "repeatable": false,
-      "component": "component-part.bg-color"
-    },
-    "animation": {
-      "type": "component",
-      "repeatable": false,
-      "component": "component-part.transition"
+      "component": "settings.component-settings"
     }
   }
 }

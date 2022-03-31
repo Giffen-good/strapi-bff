@@ -13,15 +13,10 @@
       "repeatable": true,
       "component": "complex.tabs"
     },
-    "bg_color": {
+    "component_settings": {
       "type": "component",
       "repeatable": false,
-      "component": "component-part.bg-color"
-    },
-    "transition": {
-      "type": "component",
-      "repeatable": false,
-      "component": "component-part.transition"
+      "component": "settings.component-settings"
     }
   }
 }
