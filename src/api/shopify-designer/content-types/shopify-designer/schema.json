@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shopify_designers",
+  "info": {
+    "singularName": "shopify-designer",
+    "pluralName": "shopify-designers",
+    "displayName": "Shopify Designers"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}
