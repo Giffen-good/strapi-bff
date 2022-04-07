@@ -1,0 +1,85 @@
+{
+  "kind": "collectionType",
+  "collectionName": "covers",
+  "info": {
+    "singularName": "cover",
+    "pluralName": "covers",
+    "displayName": "Covers",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "author": {
+      "type": "string"
+    },
+    "excerpt": {
+      "type": "richtext"
+    },
+    "volume_tag": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "page_settings": {
+      "displayName": "Header Type",
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.header-type"
+    },
+    "main_content": {
+      "type": "dynamiczone",
+      "components": [
+        "editorial.headline-credit",
+        "editorial.headline-w-date",
+        "image.image-columns",
+        "component-part.label-and-body",
+        "component-part.post-date",
+        "editorial.line-separated-credits",
+        "generic.brands",
+        "text.heading",
+        "mission.staff",
+        "mission.tabs",
+        "complex.featured-post",
+        "post.posts-widget",
+        "spacing.extra-padding",
+        "text.cta",
+        "text.quote",
+        "text.rich-text-body",
+        "complex.image-text-pair",
+        "complex.three-column-banner",
+        "complex.alphabet",
+        "text.staff-widget",
+        "image.single-image",
+        "editorial.credits-widget",
+        "text.button"
+      ]
+    },
+    "external_url": {
+      "type": "string"
+    },
+    "no_link": {
+      "type": "boolean",
+      "default": true,
+      "required": false
+    }
+  }
+}

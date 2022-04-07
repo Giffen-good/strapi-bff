@@ -39,6 +39,47 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::conversation.conversation"
+    },
+    "post_style": {
+      "type": "enumeration",
+      "enum": [
+        "post_widget_1",
+        "post_widget_2",
+        "post_widget_3",
+        "post_widget_4",
+        "post_widget_5"
+      ],
+      "default": "post_widget_1"
+    },
+    "sort_posts": {
+      "type": "enumeration",
+      "enum": [
+        "manual",
+        "newest"
+      ],
+      "default": "manual"
+    },
+    "show_all_posts": {
+      "type": "enumeration",
+      "enum": [
+        "false",
+        "conversations",
+        "stories",
+        "press",
+        "essays",
+        "covers"
+      ],
+      "default": "false"
+    },
+    "presses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::press.press"
+    },
+    "covers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cover.cover"
     }
   }
 }
