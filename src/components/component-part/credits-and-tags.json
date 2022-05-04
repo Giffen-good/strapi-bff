@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_component_part_credits_and_tags",
+  "info": {
+    "displayName": "Credits and tags",
+    "icon": "bezier-curve",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "words_credit": {
+      "type": "string"
+    },
+    "documented_credit": {
+      "type": "string"
+    }
+  }
+}

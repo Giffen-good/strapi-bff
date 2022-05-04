@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_component_part_people",
+  "info": {
+    "displayName": "People",
+    "icon": "people-carry",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "collectionName": "components_complex_image_text_pairs",
   "info": {
-    "displayName": "Image Text Pair",
+    "displayName": "Image with Text",
     "icon": "address-card",
     "description": ""
   },
@@ -35,6 +35,10 @@
       "type": "component",
       "repeatable": false,
       "component": "settings.component-settings"
+    },
+    "image_on_left_side": {
+      "type": "boolean",
+      "default": true
     }
   }
 }

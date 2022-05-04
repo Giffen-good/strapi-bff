@@ -72,6 +72,40 @@
         "editorial.credits-widget",
         "text.button"
       ]
+    },
+    "title_drop_text": {
+      "type": "string"
+    },
+    "drop_text_style": {
+      "type": "enumeration",
+      "enum": [
+        "font_sans",
+        "font_semibold",
+        "font_serif"
+      ]
+    },
+    "date": {
+      "type": "date"
+    },
+    "title_text_style": {
+      "type": "enumeration",
+      "enum": [
+        "font_sans",
+        "font_semibold",
+        "font_serif"
+      ]
+    },
+    "top_credits": {
+      "displayName": "Credits and tags",
+      "type": "component",
+      "repeatable": false,
+      "component": "component-part.credits-and-tags"
+    },
+    "post_tags": {
+      "displayName": "Post Tags",
+      "type": "component",
+      "repeatable": false,
+      "component": "editorial.post-tags"
     }
   }
 }

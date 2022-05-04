@@ -17,6 +17,17 @@
       "type": "component",
       "repeatable": false,
       "component": "settings.component-settings"
+    },
+    "drop_text": {
+      "type": "string"
+    },
+    "drop_text_style": {
+      "type": "enumeration",
+      "enum": [
+        "font_sans",
+        "font_semibold",
+        "font_serif"
+      ]
     }
   }
 }

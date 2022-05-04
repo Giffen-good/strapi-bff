@@ -66,6 +66,16 @@
       "type": "component",
       "repeatable": false,
       "component": "settings.component-settings"
+    },
+    "text_alignment": {
+      "type": "enumeration",
+      "enum": [
+        "left_aligned",
+        "centered",
+        "right_aligned",
+        "justified"
+      ],
+      "default": "centered"
     }
   }
 }
