@@ -23,7 +23,8 @@
       "enum": [
         "left_aligned",
         "centered",
-        "right_aligned"
+        "right_aligned",
+        "justified"
       ],
       "default": "left_aligned"
     },
@@ -31,6 +32,17 @@
       "type": "component",
       "repeatable": false,
       "component": "settings.component-settings"
+    },
+    "drop_text": {
+      "type": "string"
+    },
+    "drop_text_style": {
+      "type": "enumeration",
+      "enum": [
+        "font_sans",
+        "font_semibold",
+        "font_serif"
+      ]
     }
   }
 }

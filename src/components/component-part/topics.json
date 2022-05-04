@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_component_part_topics",
+  "info": {
+    "displayName": "Topics",
+    "icon": "comments",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string"
+    }
+  }
+}
