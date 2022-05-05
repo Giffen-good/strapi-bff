@@ -41,6 +41,10 @@
       "type": "string",
       "regex": "^#[0-9a-fA-F]{3,6}$",
       "default": "#000"
+    },
+    "footer_background_color": {
+      "type": "string",
+      "regex": "^#[0-9a-fA-F]{3,6}$"
     }
   }
 }
