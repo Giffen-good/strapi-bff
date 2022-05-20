@@ -72,6 +72,35 @@
       "type": "component",
       "repeatable": false,
       "component": "settings.header-type"
+    },
+    "date": {
+      "type": "date"
+    },
+    "top_credits": {
+      "type": "component",
+      "repeatable": false,
+      "component": "editorial.headline-credit"
+    },
+    "bottom_credits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "editorial.line-separated-credits"
+    },
+    "bottom_credits_component_bg_color": {
+      "type": "string",
+      "regex": "^#[0-9a-fA-F]{3,6}$"
+    },
+    "bottom_credits_component_font_color": {
+      "type": "string",
+      "regex": "^#[0-9a-fA-F]{3,6}$"
+    },
+    "top_credits_component_bg_color": {
+      "type": "string",
+      "regex": "^#[0-9a-fA-F]{3,6}$"
+    },
+    "top_credits_component_font_color": {
+      "type": "string",
+      "regex": "^#[0-9a-fA-F]{3,6}$"
     }
   }
 }
