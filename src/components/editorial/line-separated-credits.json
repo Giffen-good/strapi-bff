@@ -12,11 +12,6 @@
       "type": "component",
       "repeatable": true,
       "component": "component-part.label-and-body"
-    },
-    "component_settings": {
-      "type": "component",
-      "repeatable": false,
-      "component": "settings.component-settings"
     }
   }
 }
