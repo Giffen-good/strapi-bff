@@ -30,8 +30,10 @@
         "videos"
       ]
     },
-    "image_and_text_background_color": {
-      "type": "string"
+    "bg_color": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component-part.bg-color"
     }
   }
 }

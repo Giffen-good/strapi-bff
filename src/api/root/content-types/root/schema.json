@@ -12,28 +12,21 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "background_color": {
-      "type": "string",
-      "regex": "^#[0-9a-fA-F]{3,6}$"
-    },
-    "header_type": {
+    "page_settings": {
       "type": "component",
       "repeatable": false,
-      "component": "header.header-type"
+      "component": "settings.header-type"
     },
     "main_content": {
       "type": "dynamiczone",
       "components": [
-        "complex.editorial-header-image",
         "complex.image-text-pair",
-        "complex.three-column-banner",
         "editorial.headline-credit",
         "editorial.headline-w-date",
-        "editorial.label-and-body",
+        "component-part.label-and-body",
         "editorial.line-separated-credits",
-        "editorial.post-date",
+        "component-part.post-date",
         "generic.brands",
-        "image.banner-image",
         "image.image-columns",
         "mission.staff",
         "mission.tabs",
@@ -42,11 +35,11 @@
         "spacing.extra-padding",
         "text.heading",
         "text.quote",
-        "text.rich-text-body"
+        "text.rich-text-body",
+        "text.button",
+        "image.single-image",
+        "editorial.credits-widget"
       ]
-    },
-    "is_landing_page": {
-      "type": "boolean"
     }
   }
 }

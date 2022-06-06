@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_component_part_organizations",
+  "info": {
+    "displayName": "Organizations",
+    "icon": "brain",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string"
+    }
+  }
+}

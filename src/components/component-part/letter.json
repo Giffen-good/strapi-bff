@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_component_part_letters",
+  "info": {
+    "displayName": "letter",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "letter": {
+      "type": "string"
+    }
+  }
+}

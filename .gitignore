@@ -70,8 +70,8 @@ $RECYCLE.BIN/
 *.sql
 *.sqlite
 *.sqlite3
-
-
+data/backup.db
+data/strapi.db.bak
 ############################
 # Misc.
 ############################
@@ -112,3 +112,4 @@ exports
 *.cache
 build
 .strapi-updater.json
+.history

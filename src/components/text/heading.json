@@ -31,6 +31,51 @@
         "font_semibold"
       ],
       "default": "font_serif"
+    },
+    "font_size": {
+      "type": "enumeration",
+      "enum": [
+        "text_xs",
+        "text_sm",
+        "text_md",
+        "text_lg",
+        "text_xl",
+        "text_2xl",
+        "text_3xl",
+        "text_4xl",
+        "text_5xl",
+        "text_6xl",
+        "text_7xl",
+        "text_8xl"
+      ],
+      "default": "text_lg"
+    },
+    "has_padding": {
+      "type": "boolean",
+      "default": true
+    },
+    "width": {
+      "type": "enumeration",
+      "enum": [
+        "narrow",
+        "medium",
+        "wide"
+      ]
+    },
+    "component_settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.component-settings"
+    },
+    "text_alignment": {
+      "type": "enumeration",
+      "enum": [
+        "left_aligned",
+        "centered",
+        "right_aligned",
+        "justified"
+      ],
+      "default": "centered"
     }
   }
 }

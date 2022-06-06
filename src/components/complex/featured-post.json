@@ -7,31 +7,42 @@
   },
   "options": {},
   "attributes": {
-    "drop_cap": {
-      "type": "string",
-      "maxLength": 1
-    },
-    "title": {
-      "type": "string"
-    },
     "excerpt": {
       "type": "richtext"
     },
     "justified_text": {
       "type": "text"
     },
-    "bold_title": {
-      "type": "text"
-    },
-    "bg_color": {
-      "type": "string",
-      "regex": "^#[0-9a-fA-F]{3,6}$"
-    },
     "button_text": {
       "type": "string"
     },
     "button_link": {
       "type": "string"
+    },
+    "title_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "banner_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "component_settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.component-settings"
     }
   }
 }

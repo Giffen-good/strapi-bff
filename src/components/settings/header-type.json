@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_header_header_types",
+  "info": {
+    "displayName": "Page Settings",
+    "icon": "users-cog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "background_transparency": {
+      "type": "enumeration",
+      "enum": [
+        "opaque",
+        "transparent"
+      ],
+      "required": true,
+      "default": "opaque"
+    },
+    "use_special_layout": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "background_color": {
+      "type": "string",
+      "regex": "^#[0-9a-fA-F]{3,6}$"
+    },
+    "use_special_footer": {
+      "type": "boolean"
+    },
+    "use_full_logo": {
+      "type": "boolean",
+      "default": false
+    },
+    "use_navigations": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "footer_text_color": {
+      "type": "string",
+      "regex": "^#[0-9a-fA-F]{3,6}$",
+      "default": "#000"
+    },
+    "footer_background_color": {
+      "type": "string",
+      "regex": "^#[0-9a-fA-F]{3,6}$"
+    },
+    "meta_title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "text"
+    }
+  }
+}

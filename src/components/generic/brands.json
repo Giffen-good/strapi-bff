@@ -2,18 +2,25 @@
   "collectionName": "components_generic_brands",
   "info": {
     "displayName": "Brands",
-    "icon": "images"
+    "icon": "images",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "brand_image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "component_settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.component-settings"
     }
   }
 }

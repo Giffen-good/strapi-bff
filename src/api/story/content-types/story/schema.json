@@ -1,0 +1,106 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stories",
+  "info": {
+    "singularName": "story",
+    "pluralName": "stories",
+    "displayName": "Stories",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "author": {
+      "type": "string"
+    },
+    "excerpt": {
+      "type": "richtext"
+    },
+    "volume_tag": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "main_content": {
+      "type": "dynamiczone",
+      "components": [
+        "editorial.headline-credit",
+        "editorial.headline-w-date",
+        "image.image-columns",
+        "component-part.label-and-body",
+        "component-part.post-date",
+        "editorial.line-separated-credits",
+        "generic.brands",
+        "text.heading",
+        "mission.staff",
+        "mission.tabs",
+        "complex.featured-post",
+        "post.posts-widget",
+        "spacing.extra-padding",
+        "text.cta",
+        "text.quote",
+        "text.rich-text-body",
+        "complex.image-text-pair",
+        "complex.three-column-banner",
+        "complex.alphabet",
+        "text.staff-widget",
+        "image.single-image",
+        "editorial.credits-widget",
+        "text.button"
+      ]
+    },
+    "page_settings": {
+      "displayName": "Header Type",
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.header-type"
+    },
+    "date": {
+      "type": "date"
+    },
+    "top_credits": {
+      "type": "component",
+      "repeatable": false,
+      "component": "editorial.headline-credit"
+    },
+    "bottom_credits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "editorial.line-separated-credits"
+    },
+    "bottom_credits_component_bg_color": {
+      "type": "string",
+      "regex": "^#[0-9a-fA-F]{3,6}$"
+    },
+    "bottom_credits_component_font_color": {
+      "type": "string",
+      "regex": "^#[0-9a-fA-F]{3,6}$"
+    },
+    "top_credits_component_bg_color": {
+      "type": "string",
+      "regex": "^#[0-9a-fA-F]{3,6}$"
+    },
+    "top_credits_component_font_color": {
+      "type": "string",
+      "regex": "^#[0-9a-fA-F]{3,6}$"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_component_part_locations",
+  "info": {
+    "displayName": "Location",
+    "icon": "location-arrow",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string"
+    }
+  }
+}

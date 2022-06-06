@@ -9,6 +9,11 @@
   "attributes": {
     "quote": {
       "type": "text"
+    },
+    "component_settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.component-settings"
     }
   }
 }

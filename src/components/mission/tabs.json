@@ -1,17 +1,22 @@
 {
   "collectionName": "components_custom_tabs",
   "info": {
-    "displayName": "tabs (unavailable)",
+    "displayName": "Tabs",
     "icon": "folder-open",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "body": {
-      "type": "richtext"
+    "tabs": {
+      "displayName": "tabs",
+      "type": "component",
+      "repeatable": true,
+      "component": "complex.tabs"
     },
-    "heading": {
-      "type": "string"
+    "component_settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.component-settings"
     }
   }
 }

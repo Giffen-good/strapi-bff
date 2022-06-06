@@ -18,16 +18,6 @@
       "repeatable": true,
       "component": "header.header-column"
     },
-    "logo": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ]
-    },
     "alt_logo": {
       "type": "media",
       "multiple": false,
@@ -38,20 +28,14 @@
         "videos"
       ]
     },
-    "inverted_logo": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
+    "cart_icon": {
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ]
-    },
-    "page_links": {
-      "type": "component",
-      "repeatable": false,
-      "component": "component-part.page-links"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

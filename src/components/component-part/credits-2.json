@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_editorial_credits_2s",
+  "info": {
+    "displayName": "Credits 2",
+    "icon": "credit-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "job_title": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

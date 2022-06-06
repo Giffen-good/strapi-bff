@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_image_single_images",
+  "info": {
+    "displayName": "Single Image",
+    "icon": "film",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "single_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "is_full_width": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "is_flush": {
+      "type": "boolean"
+    },
+    "component_settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.component-settings"
+    }
+  }
+}

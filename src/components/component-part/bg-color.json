@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_component_part_bg_colors",
+  "info": {
+    "displayName": "BG Color",
+    "icon": "desktop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "background_color_component": {
+      "type": "string",
+      "regex": "^#[0-9a-fA-F]{3,6}$"
+    },
+    "font_color": {
+      "type": "string",
+      "regex": "^#[0-9a-fA-F]{3,6}$"
+    }
+  }
+}
