@@ -21,6 +21,7 @@
       "type": "enumeration",
       "enum": [
         "equal_height",
+        "full_width",
         "center_aligned",
         "top_aligned",
         "bottom_aligned"

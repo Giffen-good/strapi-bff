@@ -36,7 +36,7 @@
       "repeatable": false,
       "component": "settings.component-settings"
     },
-    "image_on_left_side": {
+    "text_first": {
       "type": "boolean",
       "default": true
     }
