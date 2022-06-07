@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_component_part_content_cards",
+  "info": {
+    "displayName": "Content Card",
+    "icon": "book-reader",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "heading": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text"
+    },
+    "sub_heading": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

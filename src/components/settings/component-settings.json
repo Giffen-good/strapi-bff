@@ -44,6 +44,9 @@
       "default": 0.35,
       "max": 5,
       "min": 0
+    },
+    "remove_section_padding": {
+      "type": "boolean"
     }
   }
 }
