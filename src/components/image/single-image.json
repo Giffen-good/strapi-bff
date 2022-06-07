@@ -29,6 +29,15 @@
       "type": "component",
       "repeatable": false,
       "component": "settings.component-settings"
+    },
+    "mobile_fallback": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

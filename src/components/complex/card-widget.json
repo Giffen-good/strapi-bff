@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_complex_card_widgets",
+  "info": {
+    "displayName": "Card Widget",
+    "icon": "id-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content_card": {
+      "displayName": "Content Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "component-part.content-card"
+    },
+    "component_settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.component-settings"
+    },
+    "card_style": {
+      "type": "enumeration",
+      "enum": [
+        "landscape",
+        "portrait_centered",
+        "portrait_left_aligned"
+      ],
+      "default": "landscape",
+      "required": true
+    },
+    "image_aspect_ratio": {
+      "type": "enumeration",
+      "enum": [
+        "aspect_4x6",
+        "aspect_3x4",
+        "aspect_4x5",
+        "aspect_5x7",
+        "aspect_1x1",
+        "aspect_3x2",
+        "aspect_5x4",
+        "aspect_16x9"
+      ]
+    },
+    "fluid_width": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

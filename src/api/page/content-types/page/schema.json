@@ -50,12 +50,11 @@
         "text.quote",
         "text.rich-text-body",
         "complex.image-text-pair",
-        "complex.three-column-banner",
-        "complex.alphabet",
         "text.staff-widget",
         "image.single-image",
         "editorial.credits-widget",
-        "text.button"
+        "text.button",
+        "complex.card-widget"
       ]
     },
     "page_settings": {
