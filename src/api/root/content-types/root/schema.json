@@ -38,7 +38,8 @@
         "text.rich-text-body",
         "text.button",
         "image.single-image",
-        "editorial.credits-widget"
+        "editorial.credits-widget",
+        "complex.card-widget"
       ]
     }
   }
