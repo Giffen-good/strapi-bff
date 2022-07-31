@@ -75,6 +75,9 @@
     },
     "external_url": {
       "type": "string"
+    },
+    "sub_title": {
+      "type": "string"
     }
   }
 }
