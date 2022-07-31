@@ -39,6 +39,10 @@
     "text_first": {
       "type": "boolean",
       "default": true
+    },
+    "fluid_height": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

@@ -50,10 +50,6 @@
       ],
       "default": "text_lg"
     },
-    "has_padding": {
-      "type": "boolean",
-      "default": true
-    },
     "width": {
       "type": "enumeration",
       "enum": [

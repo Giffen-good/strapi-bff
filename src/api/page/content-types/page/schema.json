@@ -63,7 +63,7 @@
       "repeatable": false,
       "component": "settings.header-type"
     },
-    "designer": {
+    "sub_title": {
       "type": "string"
     }
   }

@@ -41,9 +41,14 @@
         "aspect_16x9"
       ]
     },
-    "fluid_width": {
-      "type": "boolean",
-      "default": false
+    "gap_size": {
+      "type": "enumeration",
+      "enum": [
+        "no_gap",
+        "small_gap",
+        "large_gap"
+      ],
+      "default": "small_gap"
     }
   }
 }
