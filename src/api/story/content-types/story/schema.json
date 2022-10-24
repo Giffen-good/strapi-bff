@@ -101,6 +101,9 @@
     "top_credits_component_font_color": {
       "type": "string",
       "regex": "^#[0-9a-fA-F]{3,6}$"
+    },
+    "sub_title": {
+      "type": "string"
     }
   }
 }
